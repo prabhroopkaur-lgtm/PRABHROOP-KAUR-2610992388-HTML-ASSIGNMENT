@@ -1,0 +1,86 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EVENT FORM</title>
+    </head>
+    <body>
+        <h1>COLLEGE ADMISSION FORM</h1>
+        <form action="resultofform.html" method="GET">
+            <label>STUDENT NAME : </label>
+            <input type="text" name="fullname" placeholder="ENTER YOUR FULL NAME" required>
+            <br>
+            <br>
+            <label>EMAIL ADDRESS : </label>
+            <input type="email" name="email" placeholder="ENTER YOUR EMAIL" required>
+            <br>
+            <br>
+            <!-- <label>CREATE PASSWORD : </label>
+            <input type="password" name="password" placeholder="ENTER THE PASSWORD" required>
+            <br>
+            <br> -->
+            <label>MOBILE NUMBER : </label>
+            <input type="tel" name="telno" placeholder="ENTER YOUR NUMBER">
+            <br>
+            <br>
+            <label>AGE : </label>
+            <input type="number" name="age" placeholder="ENTER YOUR AGE">
+            <br>
+            <br>
+            <label>GENDER : </label>
+            <input type="radio" name="gender" value="female">
+            <label>FEMALE</label>
+            <input type="radio" name="gender" value="male">
+            <label>MALE</label>
+            <input type="radio" name="gender" value="other">
+            <label>OTHER</label>
+            <br>
+            <br>
+            <label>SELECT DEPARTMENT : </label>
+            <select name="DEPT">
+                <option value="DEPTselection">--SELECT DEPARTMENT--</option>
+                <option value="cse">CSE</option>
+                <option value="aiml">AI-ML</option>
+
+            </select>
+            <br>
+            <br>
+            <label>SELECT EVENT : </label>
+            <select name="event">
+                <option value="eventsel">--SELECT EVENT--</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+            </select>
+            <br>
+            <br>
+            <label>PARTICIPATION TYPE : </label>
+            <br>
+            <input type="checkbox" name="ptype" >
+            <label>INDIVIDUAL</label>
+            <br>
+            <input type="checkbox" name="ptype">
+            <label>TEAM</label>
+            <br>
+            <input type="checkbox" name="ptype">
+            <label>VOLUNTEER</label>
+            <br>
+            <br>
+            <label>COMMENTS/SPECIAL REQUIREMENTS : </label>
+            <br>
+            <textarea name="COMMENT" rows="5" cols="30"></textarea>
+            <br>
+            <br> 
+            <label>DATE OF PARTICIPATION : </label>
+            <input type="date" name="DOP">
+            <br>
+            <br>
+            
+            <input type="submit" value="REGISTER">
+            <input type="reset" value="CLEAR FORM">
+            
+        </form>
+        
+    
+    </body>
+</html>

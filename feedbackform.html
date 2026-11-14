@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sports club feedback form</title>
+    </head>
+    <body>
+        <h1>SPORTS CLUB FEEDBACK</h1>
+        <h2>MEMBER FEEDBACK</h2>
+        <form>
+            <label>Member Name : </label>
+            <input name="fullname" type="text">
+            <br>
+            <br>
+            <label>Email :</label>
+            <input type="email" name="email">
+            <br>
+            <br>
+            <label>Visit Date</label>
+            <input type="date" name="visitdate">
+            <br>
+            <br>
+            <label>Months as a Member :</label>
+            <input type="number" name="months">
+            <br>
+            <br>
+            <label for="exp">Overall Experience</label>
+            <select name="exp" id="exp">
+                <option value="">--Select Experience--</option>
+                <option value="good">Good</option>
+                <option value="bad">Bad</option>
+            </select>
+            <br>
+            <br>
+            <label for="facilities">Facilities Used :</label>
+            <select id="facilities" name="facilities" multiple size="7">
+            <optgroup label="Indoor Facilities">
+                <option value="badminton">Badminton Court</option>
+                <option value="table-tennis">Table Tennis</option>
+                <option value="gym">Gym</option>
+                <option value="badminton">Badminton Court</option>
+                <option value="table-tennis">Table Tennis</option>
+                <option value="gym">Gym</option>
+            </optgroup>
+            <optgroup label="Ooutdoor Facilities">
+                <option value="badminton">Badminton Court</option>
+                <option value="table-tennis">Table Tennis</option>
+                <option value="gym">Gym</option>
+                <option value="badminton">Badminton Court</option>
+                <option value="table-tennis">Table Tennis</option>
+                <option value="gym">Gym</option>
+            </optgroup>
+            </select>
+            <br>
+            <br>
+            <label>Additional Suggestions :</label>
+            <br>
+            <textarea name="sugg" rows="6" cols="50" placeholder="Enter your suggestions....">
+            </textarea>
+            <br>
+            <button type="submit" value="Send Feedback">Send Feedback</button>
+        
+        </form>
+    </body>
+</html>
